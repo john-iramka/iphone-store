@@ -6,6 +6,8 @@ import ProductCarousel from './components/ProductCarousel';
 import FAQSection from './components/FAQSection';
 import BannerSlider from './components/BannerSlider';
 import Footer from './components/Footer';
+import { Analytics } from '@vercel/analytics/next';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <FAQSection />
       <BannerSlider />
       <Footer />
+      <Analytics />
     </div>
   );
 }
